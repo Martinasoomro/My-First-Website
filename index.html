@@ -7,19 +7,52 @@
     <link rel="stylesheet" href="Styles/index.css">
 </head>
 
+<style>
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 200;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 200px; 
+    }
+
+img {
+    border-radius: 50%;
+}
+
+footer {
+    color: white
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+</style>
+
 <body>
-    <h1 class="heading">Front-End Course Diary</h1>
-<!-- skriv namn, flytta till höger -->
+    <h1>Front-End Course Diary</h1>
     <nav>
-    <ul>
-        <li><a href="#course-block">Course Structure</a></li> 
-        <br>
-        <li><a href="#contact me-block">Contact me</a></li> 
-    </ul>
+        <ul>
+            <li><a href="#course-block">Course Structure</a></li> 
+            <br>
+            <li><a href="#contact me-block">Contact me</a></li> 
+        </ul>
 </nav>
 
 <section id="course-block">
-    <h2 class="heading">Course structure</h2>
+    <h2>Course Structure</h2>
 <table>
     <tr>
         <th>Lesson No</th>
@@ -33,27 +66,28 @@
     <tr>
         <td>1</td>
         <td>Feb 12</td>
-     <td>
+    <td>
         <ul>
             <li>Work process setup. Introduction to HTML.</li>
             <li>Version Control Systems, Git and GitHub.</li>
         </ul>
         </td>
-     <td>
-         During our first lesson I initialized the repository, 
+    <td>
+        During our first lesson I initialized the repository, 
         connected it to the GitHub and started working on my 
         first website.
     </td>
-        <td>I've learnt about SSH key, Git and GitHub </td>
+    <td>I've learnt about SSH key, Git and GitHub </td>
         <td>At home I watched the videos all over again, took notes 
             and worked on my website. Finally I tried to upload my 
-            homework to the LMS</td>
-     </tr>
+            homework to the LMS
+    </td>
+    </tr>
 
-     <tr>
+    <tr>
         <td>2</td>
         <td>Feb 15</td>
-     <td>
+    <td>
         <ul>
             <li>HTML 5 and even more tags.</li> 
             <li>Introduction to CSS.</li>
@@ -76,15 +110,17 @@
         <td>In class we...</td>
         <td>I've learnt...</td>
         <td>At home...</td>
-        </td>
-
+    </td>
     </tr>
 </table>
 </section>
 
 <section id="contact me-block">
     <h2>Contact me</h2>
-    <img src="Assets/Images/photo.jpg" alt="My picture">
+   
+    <img src="Assets/Images/photo.jpg" alt="My picture" 
+    width="200" height="200">
+
     <form>
     <input type="text" placeholder="Your name"><br>
         <textarea placeholder="Your message" rows="4"></textarea><br>
@@ -92,6 +128,8 @@
     </form>
 </section>
 
-<footer>Have a nice day!</footer>
+<footer>
+    <center>HAVE A NICE DAY!</center> 
+</footer>
 </body>
 </html>
